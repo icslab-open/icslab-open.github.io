@@ -10,22 +10,9 @@ export const en = defineConfig({
       { text: 'Home', link: '/' },
       { text: 'People', link: '/people' },
       { text: 'Publications', link: '/publication' },
-      { text: 'Resources', link: '/resource' },
       { text: 'Contact us', link: '/contact' },
       { text: 'Content Home', link: 'https://home.icsl.nise.ac.cn' }
     ],
-
-    sidebar: {
-      '/resource': [
-        {
-          text: 'Resources',
-          items: [
-            { text: 'Overview', link: '/resource' },
-            { text: 'Visual Design Guide', link: '/resource/visual-guide' }
-          ]
-        }
-      ]
-    },
 
     footer: {
       message: 'Released under the MIT License.',
