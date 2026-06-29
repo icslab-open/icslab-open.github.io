@@ -7,10 +7,6 @@ hero:
   image:
     src: /nise-logo.svg
     alt: ICSL
-  actions:
-    - theme: brand
-      text: Content Home
-      link: https://home.icsl.nise.ac.cn
 ---
 
 ## About Us

@@ -10,7 +10,7 @@ export const zh = defineConfig({
       { text: '人员', link: '/zh/people' },
       { text: '发表', link: '/zh/publication' },
       { text: '联系我们', link: '/zh/contact' },
-      { text: '内容主页', link: 'https://home.icsl.nise.ac.cn' }
+      { text: '内部主页', link: 'https://home.icsl.nise.ac.cn' }
     ],
 
     footer: {
