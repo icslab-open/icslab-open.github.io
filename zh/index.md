@@ -7,7 +7,7 @@ hero:
   tagline: '探界智能系统前沿 · 构筑未来计算生态<br>Next-generation Intelligent Systems Exploration'
   image:
     src: /nise-logo.svg
-    alt: ICSL
+    alt: ICSLab
 ---
 
 ## 团队简介

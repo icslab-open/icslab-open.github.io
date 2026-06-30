@@ -6,7 +6,7 @@ hero:
   tagline: 'Next-generation Intelligent Systems Exploration'
   image:
     src: /nise-logo.svg
-    alt: ICSL
+    alt: ICSLab
 ---
 
 ## About Us

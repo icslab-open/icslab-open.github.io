@@ -8,15 +8,14 @@
    Design goals: tech-premium, no purple, clear in both modes
    ============================================================ */
 
-/* ── Hero Name Gradient ─────────────────────────────────── */
+/* ── Hero Name Color ─────────────────────────────────── */
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #0062cc 0%, #0096e6 40%, #06b6d4 100%);
+  --vp-home-hero-name-color: #0062cc;
 }
 
 /* Dark mode: slightly lighter, crisper */
 .dark {
-  --vp-home-hero-name-background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 45%, #22d3ee 100%);
+  --vp-home-hero-name-color: #38bdf8;
 }
 
 /* ── Brand Color Tokens ─────────────────────────────────── */
@@ -175,17 +174,11 @@
 .gold-badge {
   display: inline-block;
   font-weight: bold;
-  background: linear-gradient(120deg, #d97706 0%, #b45309 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #d97706;
 }
 
 .dark .gold-badge {
-  background: linear-gradient(120deg, #fbbf24 0%, #f59e0b 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fbbf24;
 }
 
 /* ── Publication Title (strong in list) ─────────────────── */

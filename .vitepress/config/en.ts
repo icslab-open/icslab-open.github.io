@@ -11,7 +11,7 @@ export const en = defineConfig({
       { text: 'People', link: '/people' },
       { text: 'Publications', link: '/publication' },
       { text: 'Contact us', link: '/contact' },
-      { text: 'Internal Home', link: 'https://home.icsl.nise.ac.cn' }
+      { text: 'Internal Home', link: 'https://home.icslab.nise.ac.cn' }
     ],
 
     footer: {
