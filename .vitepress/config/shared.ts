@@ -91,7 +91,7 @@ export const shared = defineConfig({
     plugins: [
       groupIconVitePlugin({
         customIcon: {
-          niselab: localIconLoader(import.meta.url, '../../public/favicon.svg')
+          icslab: localIconLoader(import.meta.url, '../../public/favicon.svg')
         }
       })
     ]
