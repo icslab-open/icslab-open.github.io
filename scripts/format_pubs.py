@@ -1,9 +1,10 @@
 import re
-import os
+from pathlib import Path
 
+repo_root = Path(__file__).resolve().parents[1]
 files = [
-    '/home/teckc/ws/nise-open.github.io/zh/publication.md',
-    '/home/teckc/ws/nise-open.github.io/en/publication.md'
+    repo_root / 'zh' / 'publication.md',
+    repo_root / 'en' / 'publication.md'
 ]
 
 def format_all_publications(content):

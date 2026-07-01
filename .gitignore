@@ -1,7 +1,8 @@
 ### Node ###
 # Lockfiles
 package-lock.json
-bun.lock
+yarn.lock
+pnpm-lock.yaml
 
 # Logs
 logs

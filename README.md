@@ -3,7 +3,7 @@
 Source code for the Intelligent Computing Systems Laboratory official website, built with VitePress.
 
 - 🌐 **Live Site**: [https://www.nise.ac.cn](https://www.nise.ac.cn)
-- 🗃️ **GitHub Repo**: [https://github.com/nise-open/nise-open.github.io](https://github.com/nise-open/nise-open.github.io)
+- 🗃️ **GitHub Repo**: [https://github.com/icslab-open/icslab-open.github.io](https://github.com/icslab-open/icslab-open.github.io)
 
 ---
 
@@ -63,29 +63,18 @@ export default defineConfig({
 
 ## ⚙️ Build & Run
 
-Install dependencies (recommended: [bun](https://bun.sh), [yarn](https://yarnpkg.com), or npm):
+This repository uses [Bun](https://bun.sh) for dependency management and all development/build commands.
 
 ```bash
-# Prefer bun
-git clone https://github.com/nise-open/nise-open.github.io.git
-cd nise-open.github.io
+git clone https://github.com/icslab-open/icslab-open.github.io.git
+cd icslab-open.github.io
 bun install
-
-# Or use yarn
-yarn install
-
-# Or use npm
-npm install
 ```
 
 Run dev server:
 
 ```bash
-bun run docs:dev
-# or
-yarn docs:dev
-# or
-npm run docs:dev
+bun run dev
 
 # open http://localhost:3000/en/ or /zh/
 ```
@@ -93,27 +82,23 @@ npm run docs:dev
 Build production:
 
 ```bash
-bun run docs:build
-# or
-yarn docs:build
-# or
-npm run docs:build
+bun run build
 ```
 
 ---
 
 ## 🚀 Deploy via GitHub Pages
 
-Automated deployment is configured via [GitHub Actions](.github/workflows/deploy.yml). The default workflow uses **bun** for dependency management and build, but you may switch to yarn or npm by adjusting the respective commands in `deploy.yml`.
+Automated deployment is configured via [GitHub Actions](.github/workflows/deploy.yml) and uses Bun for dependency installation and build.
 
 Deployment steps:
 
 1. Triggered on push to `main` or manually from the Actions tab.
-2. Install dependencies (`bun install` by default)
+2. Install dependencies (`bun install --frozen-lockfile`)
 3. Build the site with VitePress (`bun run build`)
 4. Upload and deploy `.vitepress/dist` to GitHub Pages
 
-You can customize these steps as needed.
+When dependencies change, update and commit both `package.json` and `bun.lock`.
 
 ---
 
