@@ -16,7 +16,7 @@ export default {
 
     if (typeof window !== 'undefined') {
       router.onAfterRouteChanged = (to) => {
-        localStorage.setItem('nise-lang', to.startsWith('/zh') ? 'zh' : 'en')
+        localStorage.setItem('icslab-lang', to.startsWith('/zh') ? 'zh' : 'en')
       }
     }
   }

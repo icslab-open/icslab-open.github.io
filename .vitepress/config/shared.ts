@@ -59,7 +59,7 @@ export const shared = defineConfig({
     ['script', {}, `
       (function () {
         var themeKey = 'vitepress-theme-appearance';
-        var langKey = 'nise-lang';
+        var langKey = 'icslab-lang';
         var theme = localStorage.getItem(themeKey) || 'auto';
         var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         document.documentElement.classList.toggle('dark', theme === 'dark' || (theme === 'auto' && prefersDark));

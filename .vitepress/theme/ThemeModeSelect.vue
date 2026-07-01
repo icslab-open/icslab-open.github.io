@@ -53,18 +53,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="nise-theme-toggle" role="group" :aria-label="isZh ? '主题模式' : 'Theme mode'">
+  <div class="icslab-theme-toggle" role="group" :aria-label="isZh ? '主题模式' : 'Theme mode'">
     <button
       v-for="opt in options"
       :key="opt.value"
-      class="nise-theme-btn"
+      class="icslab-theme-btn"
       :class="{ active: mode === opt.value }"
       :title="label(opt)"
       :aria-pressed="mode === opt.value"
       @click="applyMode(opt.value)"
     >
-      <span class="nise-theme-icon" aria-hidden="true">{{ opt.icon }}</span>
-      <span class="nise-theme-label">{{ label(opt) }}</span>
+      <span class="icslab-theme-icon" aria-hidden="true">{{ opt.icon }}</span>
+      <span class="icslab-theme-label">{{ label(opt) }}</span>
     </button>
   </div>
 </template>
