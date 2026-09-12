@@ -1,0 +1,19 @@
+# Intelligent Computing Systems Laboratory
+
+Official website of the Intelligent Computing Systems Laboratory (ICSLab), School of Computer Science and Engineering, University of Electronic Science and Technology of China (UESTC).
+
+## English
+
+- [Home](https://www.nise.ac.cn/): Laboratory overview, research areas and representative projects
+- [News](https://www.nise.ac.cn/news): Research and publication updates
+- [People](https://www.nise.ac.cn/people): Faculty, research assistants and students
+- [Publications](https://www.nise.ac.cn/publication): Selected research publications
+- [Contact](https://www.nise.ac.cn/contact): Admissions, collaboration and contact information
+
+## 简体中文
+
+- [主页](https://www.nise.ac.cn/zh/): 实验室简介、研究方向与代表性项目
+- [动态](https://www.nise.ac.cn/zh/news): 科研与论文动态
+- [人员](https://www.nise.ac.cn/zh/people): 教师、科研助理与学生
+- [论文](https://www.nise.ac.cn/zh/publication): 精选科研论文
+- [联系我们](https://www.nise.ac.cn/zh/contact): 招生、合作与联系方式
