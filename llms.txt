@@ -5,6 +5,8 @@ Official website of the Intelligent Computing Systems Laboratory (ICSLab), Schoo
 ## English
 
 - [Home](https://www.nise.ac.cn/): Laboratory overview, research areas and representative projects
+- [Research Directions](https://www.nise.ac.cn/research): Edge intelligence, embodied sensing, swarm communication and intelligent information processing
+- [Representative Projects](https://www.nise.ac.cn/projects): Representative funded and collaborative research projects
 - [News](https://www.nise.ac.cn/news): Research and publication updates
 - [People](https://www.nise.ac.cn/people): Faculty, research assistants and students
 - [Publications](https://www.nise.ac.cn/publication): Selected research publications
@@ -13,6 +15,8 @@ Official website of the Intelligent Computing Systems Laboratory (ICSLab), Schoo
 ## 简体中文
 
 - [主页](https://www.nise.ac.cn/zh/): 实验室简介、研究方向与代表性项目
+- [研究方向](https://www.nise.ac.cn/zh/research): 物联网边端智能、具身智能感知、集群协同通信和智能信息处理
+- [代表项目](https://www.nise.ac.cn/zh/projects): 代表性基金项目和合作项目
 - [动态](https://www.nise.ac.cn/zh/news): 科研与论文动态
 - [人员](https://www.nise.ac.cn/zh/people): 教师、科研助理与学生
 - [论文](https://www.nise.ac.cn/zh/publication): 精选科研论文
